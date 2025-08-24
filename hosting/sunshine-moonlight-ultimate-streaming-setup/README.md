@@ -106,10 +106,10 @@ Sunshine will run as a service on the host and facilitate game streaming. This a
 1. Install Sunshine with the default options, enter a secure username and password when prompted and test that you can log in.
 1. (Optional) Lock your host to a static IP address, this way you can quickly access the management portal from a mobile device, laptop, etc. when connecting new devices.
 1. (Optional) Set the Sunshine Service to run automatically on system statup:
-    1. Open a run window, run ```services.msc```
-    1. Double-click "Sunshine Service"
-    1. Set "Startup Type" to "Automatic"
-    1. Click the OK button to save, then close the Services window.
+    - Open a run window, run ```services.msc```
+    - Double-click "Sunshine Service"
+    - Set "Startup Type" to "Automatic"
+    - Click the OK button to save, then close the Services window.
 
 #### Audio/Video Configuration
 
