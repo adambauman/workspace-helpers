@@ -34,7 +34,7 @@ Setup self-hosted game streaming with minimal impact to the host PC's "daily dri
 
 This guide assumes you have kept up-to-date with OS and driver updates, and already have Steam installed. We're sticking with a relatively new Microsoft Windows environment for this document, though this sort of thing is definitely possible with a Linux host!
 
-You will be installing a virtual display driver, a multi-monitor profile tool, and the Sunshine streaming host.
+You will be installing and configuring a virtual display driver and the Sunshine streaming host.
 
 > [!WARNING]
 > There may be security or privacy risks associated with game stream hosting. Sunshine runs as a service using the local system account, giving it broad access to the OS and your user data. Set a secure username and password during Sunshine setup, don't expose the service's ports outside of a trusted network. Use this guide at your own risk!
