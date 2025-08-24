@@ -36,7 +36,8 @@ This guide assumes you have kept up-to-date with OS and driver updates, and alre
 
 You will be installing a virtual display driver, a multi-monitor profile tool, and the Sunshine streaming host.
 
-> [!WARNING] There may be security or privacy risks associated with game stream hosting. Sunshine runs as a service using the local system account, giving it broad access to the OS and your user data. Set a secure username and password during Sunshine setup, don't expose the service's ports outside of a trusted network, and use at your own risk!
+> [!WARNING]
+> There may be security or privacy risks associated with game stream hosting. Sunshine runs as a service using the local system account, giving it broad access to the OS and your user data. Set a secure username and password during Sunshine setup, don't expose the service's ports outside of a trusted network. Use this guide at your own risk!
 
 ### Requirements
 
@@ -69,7 +70,8 @@ These are a few recommendations for tweaks you can make to the host PC.
 
 Creates a virtual display port that will be assigned to the Sunshine service. This allows Sunshine to match resolutions and refresh rates with connected clients without being limited by a physical monitor's capabilities. Using the virtual display will also limit annoying changes to your direct-use resolution, scaling, and multi-monitor preferences.
 
-> [!NOTE] A commented copy of my vdd_settings.xml is in the Resources directory. Only use it as a reference to get started configuring resolutions and refresh rates for your clients devices.
+> [!NOTE]
+> A commented copy of my vdd_settings.xml is in the Resources directory. Only use it as a reference to get started configuring resolutions and refresh rates for your clients devices.
 
 #### Installation
 
